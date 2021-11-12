@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class List1 {
@@ -8,18 +10,21 @@ public class List1 {
         System.out.println("Hello");
         System.out.println("Bye");
 
-        Scanner in = new Scanner(System.in);
-        String comcmd;
-        System.out.println("Вводи шо хош от меня: ");
-        if (comcmd == "List") {
-            System.out.println("List");
-            System.out.println("Hello");
-            System.out.println("Bye");
-        }
-        else if (comcmd == "Hello") {
-            System.out.println("Hello Timofei dude");
-        } else (comcmd == "Bye") {
-            System.exit(0);
+        BufferedReader reader = new BufferedReader(InputStreamReader(System.in));
+        String comcmd = reader.readLine();
+        switch (comcmd) {
+            case "List":
+                System.out.println("List");
+                System.out.println("Hello");
+                System.out.println("Bye");
+                break;
+            case "Hello":
+                System.out.println("Hello Timofei");
+                break;
+            case "Bye":
+                break;
+
+
         }
 
     }
