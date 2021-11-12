@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="152ab8aa-d3bb-4c99-8e6b-0683f0f5c245" name="Changes" comment="arraylist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/List1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NewList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NewList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.List1">
+  <component name="RunManager" selected="Application.NewList">
     <configuration name="List1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="List1" />
       <module name="Hello.main" />
@@ -163,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636735278310</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="arraylist">
+      <created>1636736174317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1636736174317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

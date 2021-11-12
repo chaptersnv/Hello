@@ -9,8 +9,8 @@ public class NewList {
         System.out.println("Bye");
 
         Scanner in = new Scanner(System.in);
-        String comcmd;
         System.out.println("Вводи шо хош от меня: ");
+        String comcmd = in.nextLine();
         if (comcmd == "List") {
             System.out.println("List");
             System.out.println("Hello");
@@ -18,8 +18,9 @@ public class NewList {
         }
         else if (comcmd == "Hello") {
             System.out.println("Hello Timofei dude");
-        } else (comcmd == "Bye") {
-            System.exit(0);
+        }
+        else if (comcmd == "Bye") {
+            System.out.println();
         }
 
     }
