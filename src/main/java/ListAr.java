@@ -10,6 +10,5 @@ public class ListAr {
         for (int i = 0; i < command.size(); i++)
             System.out.println(command.get(i));
 
-        System.out.println("Чаво хотите?: ");
     }
 }

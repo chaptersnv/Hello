@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152ab8aa-d3bb-4c99-8e6b-0683f0f5c245" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ListAr.java" afterDir="false" />
+    <list default="true" id="152ab8aa-d3bb-4c99-8e6b-0683f0f5c245" name="Changes" comment="arraylist">
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/InputKeyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ListAr.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ListAr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListScan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListAr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListAr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ListScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListScan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +41,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="List" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,6 +53,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="20XMIIZ7qnVIuG5fNdGgLf2nrY1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -70,7 +71,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.ListAr">
+  <component name="RunManager" selected="Application.ListScan">
     <configuration name="InputKeyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InputKeyboard" />
       <module name="Hello.main" />
@@ -80,6 +81,13 @@
     </configuration>
     <configuration name="ListAr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListAr" />
+      <module name="Hello.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListScan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListScan" />
       <module name="Hello.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,26 +114,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Hello" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Hello" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListScan" />
         <item itemvalue="Application.ListAr" />
         <item itemvalue="Gradle.Tests in 'Hello'" />
         <item itemvalue="Application.InputKeyboard" />
         <item itemvalue="Application.InputKeyboard" />
-        <item itemvalue="Gradle.Tests in 'Hello'" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636201487880</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="arraylist">
+      <created>1636728549484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1636728549484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,7 +177,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="arraylist" />
+    <option name="LAST_COMMIT_MESSAGE" value="arraylist" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
